@@ -1,0 +1,43 @@
+{
+  "feature_names": [
+    "Massa_Molecular",
+    "Ponto_Isoel\u00e9trico",
+    "Hidrofobicidade",
+    "Carga_Total",
+    "Propor\u00e7\u00e3o_Polar",
+    "Propor\u00e7\u00e3o_Apolar",
+    "Comprimento_Sequ\u00eancia"
+  ],
+  "target_name": "Classe",
+  "label_mapping": {
+    "Enzima": 0,
+    "Estrutural": 1,
+    "Outras": 2,
+    "Receptora": 3,
+    "Transporte": 4
+  },
+  "n_classes": 5,
+  "n_features": 7,
+  "dataset_shapes": {
+    "full": [
+      60000,
+      7
+    ],
+    "train_provided": [
+      16000,
+      7
+    ],
+    "test_provided": [
+      4000,
+      7
+    ],
+    "train_alt": [
+      48000,
+      7
+    ],
+    "test_alt": [
+      12000,
+      7
+    ]
+  }
+}
