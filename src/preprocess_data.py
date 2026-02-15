@@ -16,9 +16,9 @@ print("="*80)
 
 # Load data
 print("\n1. Loading datasets...")
-df_full = pd.read_csv('data/raw/proteinas_20000_enriquecido.csv')
-df_train_provided = pd.read_csv('data/raw/proteinas_train.csv')
-df_test_provided = pd.read_csv('data/raw/proteinas_test.csv')
+df_full = pd.read_csv('../data/raw/proteinas_20000_enriquecido.csv')
+df_train_provided = pd.read_csv('../data/raw/proteinas_train.csv')
+df_test_provided = pd.read_csv('../data/raw/proteinas_test.csv')
 
 print(f"   Full dataset: {df_full.shape}")
 print(f"   Provided train: {df_train_provided.shape}")
@@ -81,26 +81,26 @@ print(f"   Alternative test: {X_test_alt.shape}")
 print("\n6. Saving processed datasets...")
 
 # Provided splits
-np.save('data/processed/X_train_provided.npy', X_train_provided_scaled)
-np.save('data/processed/y_train_provided.npy', y_train_provided)
-np.save('data/processed/X_test_provided.npy', X_test_provided_scaled)
-np.save('data/processed/y_test_provided.npy', y_test_provided)
+np.save('../data/processed/X_train_provided.npy', X_train_provided_scaled)
+np.save('../data/processed/y_train_provided.npy', y_train_provided)
+np.save('../data/processed/X_test_provided.npy', X_test_provided_scaled)
+np.save('../data/processed/y_test_provided.npy', y_test_provided)
 
 # Alternative splits
-np.save('data/processed/X_train_alt.npy', X_train_alt)
-np.save('data/processed/y_train_alt.npy', y_train_alt)
-np.save('data/processed/X_test_alt.npy', X_test_alt)
-np.save('data/processed/y_test_alt.npy', y_test_alt)
+np.save('../data/processed/X_train_alt.npy', X_train_alt)
+np.save('../data/processed/y_train_alt.npy', y_train_alt)
+np.save('../data/processed/X_test_alt.npy', X_test_alt)
+np.save('../data/processed/y_test_alt.npy', y_test_alt)
 
 # Full scaled dataset
-np.save('data/processed/X_full_scaled.npy', X_full_scaled)
-np.save('data/processed/y_full_encoded.npy', y_full_encoded)
+np.save('../data/processed/X_full_scaled.npy', X_full_scaled)
+np.save('../data/processed/y_full_encoded.npy', y_full_encoded)
 
 # Save scaler and encoder
-with open('data/processed/scaler.pkl', 'wb') as f:
+with open('../data/processed/scaler.pkl', 'wb') as f:
     pickle.dump(scaler, f)
     
-with open('data/processed/label_encoder.pkl', 'wb') as f:
+with open('../data/processed/label_encoder.pkl', 'wb') as f:
     pickle.dump(label_encoder, f)
 
 # Save metadata
@@ -119,7 +119,7 @@ metadata = {
     }
 }
 
-with open('data/processed/metadata.json', 'w') as f:
+with open('../data/processed/metadata.json', 'w') as f:
     json.dump(metadata, f, indent=2)
 
 print("\n" + "="*80)

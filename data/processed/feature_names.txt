@@ -1,0 +1,7 @@
+Massa_Molecular
+Ponto_Isoelétrico
+Hidrofobicidade
+Carga_Total
+Proporção_Polar
+Proporção_Apolar
+Comprimento_Sequência
