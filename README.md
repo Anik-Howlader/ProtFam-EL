@@ -39,12 +39,7 @@ Protein Functional Family Classification using Ensemble Machine Learning
 Ensemble learning is a machine learning strategy where multiple models (<i>base learners</i>) are combined to improve accuracy, robustness, and generalization. Instead of relying on a single model, ensemble methods leverage the strengths of different algorithms to reduce errors from bias, variance, or overfitting.
 </p>
 
-<p style="margin-top:15px;">
-  <img src="https://i0.wp.com/spotintelligence.com/wp-content/uploads/2024/03/bagging-boosting-stacking-1024x576.webp?resize=1024%2C576&ssl=1" alt="Ensemble Learning Illustration" width="600">
-</p>
-<p style="font-size:0.9em; color:#555;">
-  Source: <a href="https://spotintelligence.com/2023/08/09/ensemble-learning/" target="_blank">spotintelligence.com – Ensemble Learning</a>
-</p>
+
 
 
 <p>
