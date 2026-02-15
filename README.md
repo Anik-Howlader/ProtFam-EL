@@ -43,10 +43,10 @@ ProtFam-EL/
 │   ├── raw/                           # Original dataset
 │   └── processed/                     # Cleaned and processed data
 ├── notebooks/
-│   ├── 01_EDA_Analysis.ipynb          # Week 1: Exploratory Data Analysis
-│   ├── 02_Feature_Selection.ipynb     # Week 2: Feature Engineering
-│   ├── 03_Model_Training.ipynb        # Week 2: Model Development
-│   └── 04_Model_Evaluation.ipynb      # Week 2: Performance Analysis
+│   ├── 01_EDA_Analysis.ipynb          # Exploratory Data Analysis
+│   ├── 02_Feature_Selection.ipynb     # Feature Engineering
+│   ├── 03_Model_Training.ipynb        # Model Development
+│   └── 04_Model_Evaluation.ipynb      # Performance Analysis
 ├── models/                            # Trained model files
 ├── app/                               # Streamlit web application
 │   ├── app.py                         # Main app file
